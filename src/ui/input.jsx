@@ -12,7 +12,7 @@ function Input({ label, state, setState, type='text' }) {
         className="form-control"
         placeholder={label}
       />
-      <label for="floatingInput">{label}</label>
+      <label htmlFor="floatingInput">{label}</label>
     </div>
   );
 }
